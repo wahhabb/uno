@@ -1,0 +1,2545 @@
+
+> uno-online@0.0.1 dev
+> vite dev
+
+Port 5173 is in use, trying another one...
+
+  VITE v5.4.21  ready in 631 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+4:11:14 PM [vite] page reload .svelte-kit/generated/server/internal.js
+4:11:14 PM [vite] page reload .svelte-kit/generated/root.js
+4:11:14 PM [vite] page reload .svelte-kit/generated/root.svelte
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+4:11:52 PM [vite-plugin-svelte] src/routes/lobby/+page.svelte:447:1 Unused CSS selector ".secondary-button"
+https://svelte.dev/e/css_unused_selector
+4:11:52 PM [vite-plugin-svelte] src/routes/lobby/+page.svelte:474:1 Unused CSS selector ".game-info"
+https://svelte.dev/e/css_unused_selector
+4:11:52 PM [vite-plugin-svelte] src/routes/lobby/+page.svelte:481:1 Unused CSS selector ".game-info p"
+https://svelte.dev/e/css_unused_selector
+5:04:31 PM [vite-plugin-svelte] src/routes/lobby/+page.svelte:447:1 Unused CSS selector ".secondary-button"
+https://svelte.dev/e/css_unused_selector
+5:04:31 PM [vite-plugin-svelte] src/routes/lobby/+page.svelte:474:1 Unused CSS selector ".game-info"
+https://svelte.dev/e/css_unused_selector
+5:04:31 PM [vite-plugin-svelte] src/routes/lobby/+page.svelte:481:1 Unused CSS selector ".game-info p"
+https://svelte.dev/e/css_unused_selector
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+10:24:12 PM [vite] hmr update /src/routes/game/[id]/+page.svelte?svelte&type=style&lang.css
+10:26:40 PM [vite] page reload src/routes/api/play-card/+server.ts
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+10:35:24 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+10:35:37 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+10:48:12 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+10:48:36 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:209:9 Identifier 'me' has already been declared
+https://svelte.dev/e/js_parse_error
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:209:9
+   207 |  
+   208 |        // Update visibleHandSize after penalty checks (allows animations to show correctly)
+   209 |        const me = players.find((p) => p.email === normalizedEmail);
+                      ^
+   210 |        if (me && !isAnimating) {
+   211 |          visibleHandSize = me.hand.length;
+
+[1;31m[500] GET /game/9a30711d-3972-442a-aa80-331ed52b8471[0m
+
+
+[1;31m[404] GET /favicon.png[0m
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:209:9 Identifier 'me' has already been declared
+https://svelte.dev/e/js_parse_error
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:209:9
+   207 |  
+   208 |        // Update visibleHandSize after penalty checks (allows animations to show correctly)
+   209 |        const me = players.find((p) => p.email === normalizedEmail);
+                      ^
+   210 |        if (me && !isAnimating) {
+   211 |          visibleHandSize = me.hand.length;
+
+[1;31m[500] GET /game/9a30711d-3972-442a-aa80-331ed52b8471[0m
+
+
+[1;31m[404] GET /favicon.png[0m
+10:49:33 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+10:49:33 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+10:49:33 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+10:49:33 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+10:49:33 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+10:49:33 PM [vite] page reload .svelte-kit/generated/client/app.js
+10:49:33 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+10:49:33 PM [vite] page reload .svelte-kit/generated/server/internal.js
+10:49:33 PM [vite] page reload .svelte-kit/generated/root.js
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:209:9 Identifier 'me' has already been declared
+https://svelte.dev/e/js_parse_error
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:209:9
+   207 |  
+   208 |        // Update visibleHandSize after penalty checks (allows animations to show correctly)
+   209 |        const me = players.find((p) => p.email === normalizedEmail);
+                      ^
+   210 |        if (me && !isAnimating) {
+   211 |          visibleHandSize = me.hand.length;
+
+[1;31m[500] GET /game/9a30711d-3972-442a-aa80-331ed52b8471[0m
+
+
+[1;31m[500] GET /game/9a30711d-3972-442a-aa80-331ed52b8471[0m
+
+10:50:07 PM [vite] hmr update /src/routes/game/[id]/+page.svelte, /src/routes/game/[id]/+page.svelte?svelte&type=style&lang.css
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+10:50:10 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+10:50:10 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+10:50:10 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+10:50:10 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+10:50:10 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+10:50:10 PM [vite] page reload .svelte-kit/generated/client/app.js
+10:50:10 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+10:50:10 PM [vite] page reload .svelte-kit/generated/server/internal.js
+10:50:10 PM [vite] page reload .svelte-kit/generated/root.js
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+Error loading game state: {
+  message: 'TypeError: fetch failed',
+  details: 'TypeError: fetch failed\n' +
+    '\n' +
+    'Caused by: Error: read ECONNRESET (ECONNRESET)\n' +
+    'Error: read ECONNRESET\n' +
+    '    at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20)',
+  hint: '',
+  code: ''
+}
+Error loading game state: {
+  message: 'TypeError: fetch failed',
+  details: 'TypeError: fetch failed\n' +
+    '\n' +
+    'Caused by: Error: read ECONNRESET (ECONNRESET)\n' +
+    'Error: read ECONNRESET\n' +
+    '    at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20)',
+  hint: '',
+  code: ''
+}
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'wild_draw_four',
+  cardsToDrawForNextPlayer: 4,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎯 Giving penalty cards: {
+  cardType: 'wild_draw_four',
+  victimEmail: 'al@m.com',
+  victimPlayerOrder: 0,
+  cardsToDraw: 4,
+  currentHandSize: 6
+}
+📋 Penalty cards drawn: [
+  'green-number-1',
+  'yellow-number-2',
+  'yellow-number-3',
+  'blue-number-5'
+]
+💾 Updating victim player hand: {
+  victimId: '6058749f-324e-4b58-b2bb-50ae0e5de47f',
+  oldSize: 6,
+  newSize: 10,
+  cardsAdded: 4
+}
+✅ Successfully updated hand in database: [
+  {
+    id: '6058749f-324e-4b58-b2bb-50ae0e5de47f',
+    game_id: '09807431-d7e7-4f7f-96b8-65ed8d17a3e3',
+    player_email: 'al@m.com',
+    player_order: 0,
+    hand: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    uno_declared: false,
+    joined_at: '2026-03-01T06:59:04.834285+00:00'
+  }
+]
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+🎴 Card effect calculated: {
+  cardType: 'draw_two',
+  cardsToDrawForNextPlayer: 2,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎯 Giving penalty cards: {
+  cardType: 'draw_two',
+  victimEmail: 'al@m.com',
+  victimPlayerOrder: 0,
+  cardsToDraw: 2,
+  currentHandSize: 10
+}
+📋 Penalty cards drawn: [ 'null-wild_draw_four-', 'green-reverse-' ]
+💾 Updating victim player hand: {
+  victimId: '6058749f-324e-4b58-b2bb-50ae0e5de47f',
+  oldSize: 10,
+  newSize: 12,
+  cardsAdded: 2
+}
+✅ Successfully updated hand in database: [
+  {
+    id: '6058749f-324e-4b58-b2bb-50ae0e5de47f',
+    game_id: '09807431-d7e7-4f7f-96b8-65ed8d17a3e3',
+    player_email: 'al@m.com',
+    player_order: 0,
+    hand: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    uno_declared: false,
+    joined_at: '2026-03-01T06:59:04.834285+00:00'
+  }
+]
+
+[1;31m[404] GET /favicon.png[0m
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+
+[1;31m[404] GET /favicon.png[0m
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'skip',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'wild_draw_four',
+  cardsToDrawForNextPlayer: 4,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎯 Giving penalty cards: {
+  cardType: 'wild_draw_four',
+  victimEmail: 'al@m.com',
+  victimPlayerOrder: 0,
+  cardsToDraw: 4,
+  currentHandSize: 11
+}
+📋 Penalty cards drawn: [ 'blue-skip-', 'red-draw_two-', 'yellow-reverse-', 'green-number-6' ]
+💾 Updating victim player hand: {
+  victimId: '6058749f-324e-4b58-b2bb-50ae0e5de47f',
+  oldSize: 11,
+  newSize: 15,
+  cardsAdded: 4
+}
+✅ Successfully updated hand in database: [
+  {
+    id: '6058749f-324e-4b58-b2bb-50ae0e5de47f',
+    game_id: '09807431-d7e7-4f7f-96b8-65ed8d17a3e3',
+    player_email: 'al@m.com',
+    player_order: 0,
+    hand: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    uno_declared: false,
+    joined_at: '2026-03-01T06:59:04.834285+00:00'
+  }
+]
+🎴 Card effect calculated: {
+  cardType: 'reverse',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'draw_two',
+  cardsToDrawForNextPlayer: 2,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎯 Giving penalty cards: {
+  cardType: 'draw_two',
+  victimEmail: 'bee@m.com',
+  victimPlayerOrder: 1,
+  cardsToDraw: 2,
+  currentHandSize: 4
+}
+📋 Penalty cards drawn: [ 'red-number-3', 'blue-draw_two-' ]
+💾 Updating victim player hand: {
+  victimId: 'c47a8857-f6e6-4320-aaa1-9805f7601b09',
+  oldSize: 4,
+  newSize: 6,
+  cardsAdded: 2
+}
+✅ Successfully updated hand in database: [
+  {
+    id: 'c47a8857-f6e6-4320-aaa1-9805f7601b09',
+    game_id: '09807431-d7e7-4f7f-96b8-65ed8d17a3e3',
+    player_email: 'bee@m.com',
+    player_order: 1,
+    hand: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    uno_declared: false,
+    joined_at: '2026-03-01T06:59:07.008748+00:00'
+  }
+]
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'skip',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'skip',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'draw_two',
+  cardsToDrawForNextPlayer: 2,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎯 Giving penalty cards: {
+  cardType: 'draw_two',
+  victimEmail: 'al@m.com',
+  victimPlayerOrder: 0,
+  cardsToDraw: 2,
+  currentHandSize: 9
+}
+📋 Penalty cards drawn: [ 'red-number-9', 'green-skip-' ]
+💾 Updating victim player hand: {
+  victimId: '6058749f-324e-4b58-b2bb-50ae0e5de47f',
+  oldSize: 9,
+  newSize: 11,
+  cardsAdded: 2
+}
+✅ Successfully updated hand in database: [
+  {
+    id: '6058749f-324e-4b58-b2bb-50ae0e5de47f',
+    game_id: '09807431-d7e7-4f7f-96b8-65ed8d17a3e3',
+    player_email: 'al@m.com',
+    player_order: 0,
+    hand: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    uno_declared: false,
+    joined_at: '2026-03-01T06:59:04.834285+00:00'
+  }
+]
+🎴 Card effect calculated: {
+  cardType: 'wild_draw_four',
+  cardsToDrawForNextPlayer: 4,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎯 Giving penalty cards: {
+  cardType: 'wild_draw_four',
+  victimEmail: 'al@m.com',
+  victimPlayerOrder: 0,
+  cardsToDraw: 4,
+  currentHandSize: 11
+}
+📋 Penalty cards drawn: [ 'red-skip-', 'null-wild-', 'red-number-3', 'blue-number-7' ]
+💾 Updating victim player hand: {
+  victimId: '6058749f-324e-4b58-b2bb-50ae0e5de47f',
+  oldSize: 11,
+  newSize: 15,
+  cardsAdded: 4
+}
+✅ Successfully updated hand in database: [
+  {
+    id: '6058749f-324e-4b58-b2bb-50ae0e5de47f',
+    game_id: '09807431-d7e7-4f7f-96b8-65ed8d17a3e3',
+    player_email: 'al@m.com',
+    player_order: 0,
+    hand: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    uno_declared: false,
+    joined_at: '2026-03-01T06:59:04.834285+00:00'
+  }
+]
+Player forgot to declare UNO!
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: true
+}
+10:23:08 PM [vite] hmr update /src/routes/game/[id]/+page.svelte, /src/routes/game/[id]/+page.svelte?svelte&type=style&lang.css
+10:23:08 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:977:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:23:08 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:990:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:23:08 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1002:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:23:08 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:23:08 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1012:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:23:08 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:26:14 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+10:26:14 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+10:26:14 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+10:26:14 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+10:26:14 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+10:26:14 PM [vite] page reload .svelte-kit/generated/client/app.js
+10:26:14 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+10:26:14 PM [vite] page reload .svelte-kit/generated/server/internal.js
+10:26:14 PM [vite] page reload .svelte-kit/generated/root.js
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1157:1 Expected a valid CSS identifier
+https://svelte.dev/e/css_expected_identifier
+
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1157:1
+   1155 |        transform: scale(1.05);
+   1156 |      }
+   1157 |    }
+             ^
+   1158 |  
+   1159 |    .uno-button:hover {
+
+[1;31m[500] GET /game/09807431-d7e7-4f7f-96b8-65ed8d17a3e3[0m
+
+
+[1;31m[500] GET /game/09807431-d7e7-4f7f-96b8-65ed8d17a3e3[0m
+
+10:26:21 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+10:26:21 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+10:26:21 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+10:26:21 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+10:26:21 PM [vite] page reload .svelte-kit/generated/client/app.js
+10:26:21 PM [vite] page reload .svelte-kit/generated/root.js
+10:26:21 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+10:26:21 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1157:1 Expected a valid CSS identifier
+https://svelte.dev/e/css_expected_identifier
+
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1157:1
+   1155 |        transform: scale(1.05);
+   1156 |      }
+   1157 |    }
+             ^
+   1158 |  
+   1159 |    .uno-button:hover {
+
+[1;31m[500] GET /game/09807431-d7e7-4f7f-96b8-65ed8d17a3e3[0m
+
+
+[1;31m[500] GET /game/09807431-d7e7-4f7f-96b8-65ed8d17a3e3[0m
+
+10:26:23 PM [vite] page reload .svelte-kit/generated/server/internal.js
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1157:1 Expected a valid CSS identifier
+https://svelte.dev/e/css_expected_identifier
+
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1157:1
+   1155 |        transform: scale(1.05);
+   1156 |      }
+   1157 |    }
+             ^
+   1158 |  
+   1159 |    .uno-button:hover {
+
+[1;31m[500] GET /game/09807431-d7e7-4f7f-96b8-65ed8d17a3e3[0m
+
+
+[1;31m[500] GET /game/09807431-d7e7-4f7f-96b8-65ed8d17a3e3[0m
+
+10:26:46 PM [vite] hmr update /src/routes/game/[id]/+page.svelte, /src/routes/game/[id]/+page.svelte?svelte&type=style&lang.css
+10:26:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:977:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:26:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:990:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:26:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1002:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:26:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1012:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:26:47 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:977:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:26:47 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:990:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:26:47 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1002:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:26:47 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:47 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1012:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:47 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+10:26:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:977:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:26:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:990:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:26:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1002:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:26:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1012:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+10:26:54 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+10:26:54 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+10:26:54 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+10:26:54 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+10:26:54 PM [vite] page reload .svelte-kit/generated/client/app.js
+10:26:54 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+10:26:54 PM [vite] page reload .svelte-kit/generated/server/internal.js
+10:26:54 PM [vite] page reload .svelte-kit/generated/root.js
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:977:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:990:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1002:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1012:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:977:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:990:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1002:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1012:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:977:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:990:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1002:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1012:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:26:54 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+🎴 Card effect calculated: {
+  cardType: 'wild_draw_four',
+  cardsToDrawForNextPlayer: 4,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎯 Giving penalty cards: {
+  cardType: 'wild_draw_four',
+  victimEmail: 'dee@m.com',
+  victimPlayerOrder: 1,
+  cardsToDraw: 4,
+  currentHandSize: 7
+}
+📋 Penalty cards drawn: [
+  'yellow-number-2',
+  'green-number-1',
+  'null-wild-',
+  'yellow-number-3'
+]
+💾 Updating victim player hand: {
+  victimId: 'd6f9d3b2-cb7f-42fe-a279-26697cd9c8b7',
+  oldSize: 7,
+  newSize: 11,
+  cardsAdded: 4
+}
+✅ Successfully updated hand in database: [
+  {
+    id: 'd6f9d3b2-cb7f-42fe-a279-26697cd9c8b7',
+    game_id: '014220f9-1f70-449c-ba50-dfa8b811988e',
+    player_email: 'dee@m.com',
+    player_order: 1,
+    hand: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    uno_declared: false,
+    joined_at: '2026-03-02T06:29:26.630513+00:00'
+  }
+]
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+
+[1;31m[404] GET /apple-touch-icon-precomposed.png[0m
+
+[1;31m[404] GET /apple-touch-icon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.ico[0m
+10:35:40 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+10:35:40 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:983:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:35:40 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:996:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:35:40 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:35:40 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:35:40 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:35:40 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1022:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:36:11 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:979:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:36:11 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:992:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:36:11 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1004:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:36:11 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:36:11 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:36:11 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:36:11 PM [vite] hmr update /src/routes/game/[id]/+page.svelte?svelte&type=style&lang.css
+10:36:17 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+10:36:17 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+10:36:17 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+10:36:17 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+10:36:17 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+10:36:17 PM [vite] page reload .svelte-kit/generated/client/app.js
+10:36:17 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+10:36:17 PM [vite] page reload .svelte-kit/generated/server/internal.js
+10:36:17 PM [vite] page reload .svelte-kit/generated/root.js
+10:36:17 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:979:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:36:17 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:992:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:36:17 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1004:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:36:17 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:36:17 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:36:17 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:979:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:992:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1004:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:979:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:992:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1004:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:36:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+10:42:05 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+10:42:05 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:979:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:42:05 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:992:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:42:05 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1004:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:42:05 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:42:05 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:42:05 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:42:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:979:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:42:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:992:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:42:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1004:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:42:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:42:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:42:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:42:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1143:1 Unused CSS selector ".uno-button-container"
+https://svelte.dev/e/css_unused_selector
+10:42:22 PM [vite] hmr update /src/routes/game/[id]/+page.svelte?svelte&type=style&lang.css
+10:42:31 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+10:42:31 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+10:42:31 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+10:42:31 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+10:42:31 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+10:42:31 PM [vite] page reload .svelte-kit/generated/client/app.js
+10:42:31 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+10:42:31 PM [vite] page reload .svelte-kit/generated/server/internal.js
+10:42:31 PM [vite] page reload .svelte-kit/generated/root.js
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:979:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:992:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1004:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1143:1 Unused CSS selector ".uno-button-container"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:979:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:992:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1004:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1143:1 Unused CSS selector ".uno-button-container"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:979:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:992:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1004:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:42:31 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1143:1 Unused CSS selector ".uno-button-container"
+https://svelte.dev/e/css_unused_selector
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+10:43:34 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+10:43:34 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:981:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:43:34 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:994:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:43:34 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1006:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:43:34 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1012:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:43:34 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:43:34 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1020:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:50:38 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:981:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:50:38 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:994:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:50:38 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1006:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:50:38 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1012:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:50:38 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:50:38 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1020:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:54:46 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+10:54:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:983:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:54:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:996:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:54:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:54:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:54:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:54:46 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1022:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+
+[1;31m[404] GET /favicon.png[0m
+10:57:10 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:983:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:57:10 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:996:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:57:10 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:57:10 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:57:10 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:57:10 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1022:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+10:57:20 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+10:57:20 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+10:57:20 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+10:57:20 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+10:57:20 PM [vite] page reload .svelte-kit/generated/client/app.js
+10:57:20 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+10:57:20 PM [vite] page reload .svelte-kit/generated/server/internal.js
+10:57:20 PM [vite] page reload .svelte-kit/generated/root.js
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:983:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:996:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1022:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:983:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:996:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1022:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:983:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:996:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+10:57:20 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1022:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+11:02:24 PM [vite] hmr update /src/routes/game/[id]/+page.svelte, /src/routes/game/[id]/+page.svelte?svelte&type=style&lang.css
+11:02:24 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:983:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+11:02:24 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:996:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+11:02:24 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+11:02:24 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+11:02:24 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+11:02:24 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1022:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+11:02:48 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+11:02:48 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+11:02:48 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+11:02:48 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+11:02:48 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+11:02:48 PM [vite] page reload .svelte-kit/generated/client/app.js
+11:02:48 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+11:02:48 PM [vite] page reload .svelte-kit/generated/server/internal.js
+11:02:48 PM [vite] page reload .svelte-kit/generated/root.js
+11:02:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:983:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+11:02:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:996:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+11:02:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+11:02:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+11:02:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1018:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+11:02:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1022:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:985:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:998:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1020:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1024:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+11:09:27 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:985:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:998:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1020:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+11:09:27 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1024:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+11:09:36 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+11:09:36 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+11:09:36 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+11:09:36 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+11:09:36 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+11:09:36 PM [vite] page reload .svelte-kit/generated/client/app.js
+11:09:36 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+11:09:36 PM [vite] page reload .svelte-kit/generated/server/internal.js
+11:09:36 PM [vite] page reload .svelte-kit/generated/root.js
+11:09:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:985:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+11:09:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:998:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+11:09:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+11:09:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+11:09:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1020:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+11:09:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1024:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+11:09:59 PM [vite] page reload src/app.css
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+11:10:08 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+11:10:08 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+11:10:08 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+11:10:08 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+11:10:08 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+11:10:08 PM [vite] page reload .svelte-kit/generated/client/app.js
+11:10:08 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+11:10:08 PM [vite] page reload .svelte-kit/generated/server/internal.js
+11:10:08 PM [vite] page reload .svelte-kit/generated/root.js
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+Error loading game state: {
+  message: 'TypeError: fetch failed',
+  details: 'TypeError: fetch failed\n' +
+    '\n' +
+    'Caused by: Error: read ECONNRESET (ECONNRESET)\n' +
+    'Error: read ECONNRESET\n' +
+    '    at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20)',
+  hint: '',
+  code: ''
+}
+Error loading players: {
+  message: 'TypeError: fetch failed',
+  details: 'TypeError: fetch failed\n' +
+    '\n' +
+    'Caused by: Error: read ECONNRESET (ECONNRESET)\n' +
+    'Error: read ECONNRESET\n' +
+    '    at TLSWrap.onStreamRead (node:internal/stream_base_commons:216:20)',
+  hint: '',
+  code: ''
+}
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+8:51:05 AM [vite] hmr update /src/routes/game/[id]/+page.svelte
+8:51:05 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:985:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+8:51:05 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:998:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+8:51:05 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1010:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+8:51:05 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1016:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+8:51:05 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1020:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+8:51:05 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1024:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'reverse',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'reverse',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+8:57:06 AM [vite] hmr update /src/routes/game/[id]/+page.svelte
+8:57:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:995:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+8:57:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+8:57:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1020:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+8:57:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1026:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+8:57:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1030:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+8:57:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1034:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+🎴 Card effect calculated: {
+  cardType: 'wild',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'reverse',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'reverse',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+Player forgot to declare UNO!
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: true
+}
+9:10:28 AM [vite] page reload src/routes/api/play-card/+server.ts
+9:10:28 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:995:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+9:10:28 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1008:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+9:10:28 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1020:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+9:10:28 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1026:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+9:10:28 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1030:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+9:10:28 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1034:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+9:10:30 AM [vite] page reload src/routes/api/play-card/+server.ts
+9:14:42 AM [vite] page reload src/routes/api/play-card/+server.ts
+9:15:00 AM [vite] page reload src/routes/api/play-card/+server.ts
+9:15:26 AM [vite] page reload src/routes/api/play-card/+server.ts
+9:15:53 AM [vite] page reload src/routes/api/play-card/+server.ts
+9:16:07 AM [vite] page reload src/routes/api/play-card/+server.ts
+9:19:19 AM [vite] page reload src/routes/api/play-card/+server.ts
+9:20:00 AM [vite] page reload src/routes/api/play-card/+server.ts
+9:20:27 AM [vite] page reload src/routes/api/play-card/+server.ts
+9:20:30 AM [vite] page reload src/routes/api/play-card/+server.ts
+9:21:01 AM [vite] hmr update /src/routes/game/[id]/+page.svelte
+9:21:01 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1001:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+9:21:01 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+9:21:01 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1026:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+9:21:01 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1032:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+9:21:01 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1036:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+9:21:01 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1040:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+9:21:17 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1001:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+9:21:17 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+9:21:17 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1026:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+9:21:17 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1032:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+9:21:17 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1036:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+9:21:17 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1040:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+9:21:35 AM [vite] hmr update /src/routes/game/[id]/+page.svelte
+9:21:35 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1002:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+9:21:35 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1015:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+9:21:35 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+9:21:35 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1033:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+9:21:35 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1037:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+9:21:35 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1041:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+9:22:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1002:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+9:22:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1015:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+9:22:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+9:22:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1033:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+9:22:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1037:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+9:22:06 AM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1041:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+Internal server error: Transform failed with 1 error:
+/Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/api/play-card/+server.ts:104:7: ERROR: The symbol "discardPile" has already been declared
+  Plugin: vite:esbuild
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/api/play-card/+server.ts:104:7
+  
+  The symbol "discardPile" has already been declared
+  102|  
+  103|  	// Initialize draw and discard piles for potential UNO penalty
+  104|  	const discardPile = gameState.discard_pile as any[];
+     |         ^
+  105|  	let updatedDrawPile = gameState.draw_pile as any[];
+  106|  	let updatedDiscardPile = [...discardPile, cardInHand];
+  
+      at failureErrorWithLog (/Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/node_modules/vite/node_modules/esbuild/lib/main.js:1472:15)
+      at /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/node_modules/vite/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/node_modules/vite/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/node_modules/vite/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/node_modules/vite/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+
+[1;31m[500] POST /api/play-card[0m
+Error: Transform failed with 1 error:
+/Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/api/play-card/+server.ts:104:7: ERROR: The symbol "discardPile" has already been declared
+    at failureErrorWithLog (/Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/node_modules/vite/node_modules/esbuild/lib/main.js:1472:15)
+    at /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/node_modules/vite/node_modules/esbuild/lib/main.js:755:50
+    at responseCallbacks.<computed> (/Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/node_modules/vite/node_modules/esbuild/lib/main.js:622:9)
+    at handleIncomingPacket (/Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/node_modules/vite/node_modules/esbuild/lib/main.js:677:12)
+    at Socket.readFromStdout (/Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/node_modules/vite/node_modules/esbuild/lib/main.js:600:7)
+    at Socket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+11:53:32 AM [vite] page reload src/routes/api/play-card/+server.ts
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+11:53:35 AM [vite] page reload src/routes/api/play-card/+server.ts
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'skip',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'reverse',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+⚠️ Player forgot to declare UNO! Giving 2 penalty cards
+🎴 Card effect calculated: {
+  cardType: 'wild_draw_four',
+  cardsToDrawForNextPlayer: 4,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎯 Giving penalty cards: {
+  cardType: 'wild_draw_four',
+  victimEmail: 'cat@m.com',
+  victimPlayerOrder: 0,
+  cardsToDraw: 4,
+  currentHandSize: 2
+}
+📋 Penalty cards drawn: [
+  'red-number-9',
+  'yellow-number-1',
+  'yellow-reverse-',
+  'yellow-reverse-'
+]
+💾 Updating victim player hand: {
+  victimId: '5e1ca688-2805-4341-b81f-37f733977aed',
+  oldSize: 2,
+  newSize: 6,
+  cardsAdded: 4
+}
+✅ Successfully updated hand in database: [
+  {
+    id: '5e1ca688-2805-4341-b81f-37f733977aed',
+    game_id: '06c1cf34-2964-47c2-a633-80fdc675f673',
+    player_email: 'cat@m.com',
+    player_order: 0,
+    hand: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    uno_declared: false,
+    joined_at: '2026-03-02T19:51:41.385353+00:00'
+  }
+]
+11:58:30 AM [vite] page reload src/routes/api/play-card/+server.ts
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+11:58:40 AM [vite] page reload src/routes/api/play-card/+server.ts
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+11:58:49 AM [vite] page reload src/routes/api/play-card/+server.ts
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'draw_two',
+  cardsToDrawForNextPlayer: 2,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎯 Giving penalty cards: {
+  cardType: 'draw_two',
+  victimEmail: 'cat@m.com',
+  victimPlayerOrder: 0,
+  cardsToDraw: 2,
+  currentHandSize: 5
+}
+📋 Penalty cards drawn: [ 'blue-number-', 'green-reverse-' ]
+💾 Updating victim player hand: {
+  victimId: '5e1ca688-2805-4341-b81f-37f733977aed',
+  oldSize: 5,
+  newSize: 7,
+  cardsAdded: 2
+}
+✅ Successfully updated hand in database: [
+  {
+    id: '5e1ca688-2805-4341-b81f-37f733977aed',
+    game_id: '06c1cf34-2964-47c2-a633-80fdc675f673',
+    player_email: 'cat@m.com',
+    player_order: 0,
+    hand: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    uno_declared: false,
+    joined_at: '2026-03-02T19:51:41.385353+00:00'
+  }
+]
+12:06:32 PM [vite] page reload src/routes/api/play-card/+server.ts
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2 Expected token }
+https://svelte.dev/e/expected_token
+
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2
+   1230 |      background: #27ae60;
+   1231 |      color: white;
+   1232 |    }
+              ^
+   1233 |  
+   1234 |  
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+12:06:35 PM [vite] page reload src/routes/api/play-card/+server.ts
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2 Expected token }
+https://svelte.dev/e/expected_token
+
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2
+   1230 |      background: #27ae60;
+   1231 |      color: white;
+   1232 |    }
+              ^
+   1233 |  
+   1234 |  
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2 Expected token }
+https://svelte.dev/e/expected_token
+
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2
+   1230 |      background: #27ae60;
+   1231 |      color: white;
+   1232 |    }
+              ^
+   1233 |  
+   1234 |  
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2 Expected token }
+https://svelte.dev/e/expected_token
+
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2
+   1230 |      background: #27ae60;
+   1231 |      color: white;
+   1232 |    }
+              ^
+   1233 |  
+   1234 |  
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2 Expected token }
+https://svelte.dev/e/expected_token
+
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2
+   1230 |      background: #27ae60;
+   1231 |      color: white;
+   1232 |    }
+              ^
+   1233 |  
+   1234 |  
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+12:08:08 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+12:08:08 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+12:08:08 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+12:08:08 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+12:08:08 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+12:08:08 PM [vite] page reload .svelte-kit/generated/client/app.js
+12:08:08 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+12:08:08 PM [vite] page reload .svelte-kit/generated/server/internal.js
+12:08:08 PM [vite] page reload .svelte-kit/generated/root.js
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2 Expected token }
+https://svelte.dev/e/expected_token
+
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1232:2
+   1230 |      background: #27ae60;
+   1231 |      color: white;
+   1232 |    }
+              ^
+   1233 |  
+   1234 |  
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+12:09:26 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+12:09:26 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+12:09:26 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+12:09:26 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+12:09:26 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+12:09:26 PM [vite] page reload .svelte-kit/generated/client/app.js
+12:09:26 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+12:09:26 PM [vite] page reload .svelte-kit/generated/server/internal.js
+12:09:26 PM [vite] page reload .svelte-kit/generated/root.js
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1234:12 Unexpected end of input
+https://svelte.dev/e/unexpected_eof
+
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1234:12
+   1232 |    }
+   1233 |  
+   1234 |   *{}</style>
+                       ^
+   1235 |  
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+12:09:30 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+12:09:30 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+12:09:30 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+12:09:30 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+12:09:30 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+12:09:30 PM [vite] page reload .svelte-kit/generated/client/app.js
+12:09:30 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+12:09:30 PM [vite] page reload .svelte-kit/generated/server/internal.js
+12:09:30 PM [vite] page reload .svelte-kit/generated/root.js
+Internal server error: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1234:12 Unexpected end of input
+https://svelte.dev/e/unexpected_eof
+
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+- Did you forget to add a lang attribute to your style tag?
+  Plugin: vite-plugin-svelte
+  File: /Users/lawrencebaldwin/Library/CloudStorage/Dropbox/dww/cc/uno/src/routes/game/[id]/+page.svelte:1234:12
+   1232 |    }
+   1233 |  
+   1234 |   *{}</style>
+                       ^
+   1235 |  
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+
+[1;31m[500] GET /game/06c1cf34-2964-47c2-a633-80fdc675f673[0m
+
+12:10:48 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+12:10:48 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+12:10:53 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+12:10:53 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+12:10:53 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+12:10:53 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+12:10:53 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+12:10:53 PM [vite] page reload .svelte-kit/generated/client/app.js
+12:10:53 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+12:10:53 PM [vite] page reload .svelte-kit/generated/server/internal.js
+12:10:53 PM [vite] page reload .svelte-kit/generated/root.js
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+🎴 Card effect calculated: {
+  cardType: 'reverse',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'reverse',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: true
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+12:19:30 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+12:19:30 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+12:19:30 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+12:19:30 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+12:19:30 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+12:19:30 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+12:19:30 PM [vite] hmr update /src/routes/game/[id]/+page.svelte?svelte&type=style&lang.css
+12:19:32 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+12:19:32 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+12:19:32 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+12:19:32 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+12:19:32 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+12:19:32 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+🎴 Card effect calculated: {
+  cardType: 'wild',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'reverse',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: true
+}
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+12:25:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+12:26:56 PM [vite] hmr update /src/routes/+page.svelte, /src/routes/lobby/+page.svelte, /src/routes/game/[id]/+page.svelte
+12:27:20 PM [vite] hmr update /src/routes/+page.svelte, /src/routes/lobby/+page.svelte, /src/routes/game/[id]/+page.svelte
+12:27:23 PM [vite] hmr update /src/routes/+page.svelte, /src/routes/lobby/+page.svelte, /src/routes/game/[id]/+page.svelte
+12:27:49 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+12:27:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+12:27:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+12:27:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+12:27:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+12:27:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+12:27:49 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+12:30:00 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+12:30:00 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+12:30:00 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+12:30:00 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+12:30:00 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+12:30:00 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+12:30:09 PM [vite] hmr update /src/routes/+page.svelte
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'draw_two',
+  cardsToDrawForNextPlayer: 2,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎯 Giving penalty cards: {
+  cardType: 'draw_two',
+  victimEmail: 'cat@m.com',
+  victimPlayerOrder: 1,
+  cardsToDraw: 2,
+  currentHandSize: 6
+}
+📋 Penalty cards drawn: [ 'red-number-6', 'yellow-number-2' ]
+💾 Updating victim player hand: {
+  victimId: '4845005c-1240-43d9-9027-49e93829bd13',
+  oldSize: 6,
+  newSize: 8,
+  cardsAdded: 2
+}
+✅ Successfully updated hand in database: [
+  {
+    id: '4845005c-1240-43d9-9027-49e93829bd13',
+    game_id: 'ab4dbb98-9583-430f-bc09-f5c36f93e0f0',
+    player_email: 'cat@m.com',
+    player_order: 1,
+    hand: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    uno_declared: false,
+    joined_at: '2026-03-02T20:32:34.113915+00:00'
+  }
+]
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'reverse',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'reverse',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'skip',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'skip',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: true
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'skip',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'skip',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: true,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'number',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 0,
+  playerWon: false
+}
+🎴 Card effect calculated: {
+  cardType: 'wild',
+  cardsToDrawForNextPlayer: 0,
+  skipNextPlayer: false,
+  newPlayerIndex: 1,
+  playerWon: false
+}
+12:44:29 PM [vite] page reload src/routes/api/play-card/+server.ts
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /apple-touch-icon-precomposed.png[0m
+
+[1;31m[404] GET /apple-touch-icon.png[0m
+
+[1;31m[404] GET /favicon.ico[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+2:42:44 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+2:42:44 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+2:43:22 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+2:43:22 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+2:43:22 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+2:43:22 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+2:43:22 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+2:43:22 PM [vite] page reload .svelte-kit/generated/client/app.js
+2:43:22 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+2:43:22 PM [vite] page reload .svelte-kit/generated/server/internal.js
+2:43:22 PM [vite] page reload .svelte-kit/generated/root.js
+2:43:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+2:43:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+2:43:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+2:43:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+2:43:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+2:43:22 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+Avoid calling `fetch` eagerly during server-side rendering — put your `fetch` calls inside `onMount` or a `load` function instead
+
+[1;31m[404] GET /favicon.png[0m
+
+[1;31m[404] GET /favicon.png[0m
+5:36:42 PM [vite] page reload src/routes/api/play-card/+server.ts
+5:38:29 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+5:38:30 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+5:38:30 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+5:38:30 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+5:38:30 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+5:38:30 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+5:38:30 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+5:39:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1014:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+5:39:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1027:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+5:39:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1039:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+5:39:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+5:39:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1049:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+5:39:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1053:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+5:39:43 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1021:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+5:39:43 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1034:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+5:39:43 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1046:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+5:39:43 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1052:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+5:39:43 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1056:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+5:39:43 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1060:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+5:39:43 PM [vite] hmr update /src/routes/game/[id]/+page.svelte

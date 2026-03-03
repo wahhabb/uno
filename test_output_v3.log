@@ -1,0 +1,101 @@
+/Users/lawrencebaldwin/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+🎮 Starting Automated Uno Game Testing
+============================================================
+✅ Connected to Player 1 (Alice) on port 9222
+✅ Connected to Player 2 (Bob) on port 9223
+
+📍 STEP 1: Navigate to game
+🔗 Player 1 (Alice): Navigating to http://localhost:5174
+🔗 Player 2 (Bob): Navigating to http://localhost:5174
+
+📍 STEP 2: Player 1 creates game
+📸 Player 1 (Alice): Screenshot saved to p1_01_home.png
+⌨️  Player 1 (Alice): Filled input[type="email"] with 'alice@test.com'
+👆 Player 1 (Alice): Clicked button[type="submit"]
+📸 Player 1 (Alice): Screenshot saved to p1_02_lobby.png
+
+📍 STEP 2b: Player 1 creates actual game
+👆 Player 1 (Alice): Clicked button[type="submit"]
+📸 Player 1 (Alice): Screenshot saved to p1_03_game_created.png
+🎯 Game created with ID: lobby
+
+📍 STEP 3: Player 2 joins game
+🔗 Player 2 (Bob): Navigating to http://localhost:5174
+⌨️  Player 2 (Bob): Filled input[type="email"] with 'bob@test.com'
+👆 Player 2 (Bob): Clicked button[type="submit"]
+🔗 Player 2: Navigating to http://localhost:5174/game/lobby
+🔗 Player 2 (Bob): Navigating to http://localhost:5174/game/lobby
+📸 Player 2 (Bob): Screenshot saved to p2_01_joined.png
+📸 Player 2 (Bob): Screenshot saved to p2_02_game_started.png
+
+📍 STEP 4: Observing initial deal animation
+⏳ Waiting 40 seconds for 7 cards to be dealt to each player...
+📸 Player 1 (Alice): Screenshot saved to p1_03_deal_0.png
+📸 Player 2 (Bob): Screenshot saved to p2_03_deal_0.png
+   0s elapsed...
+📸 Player 1 (Alice): Screenshot saved to p1_03_deal_1.png
+📸 Player 2 (Bob): Screenshot saved to p2_03_deal_1.png
+   5s elapsed...
+📸 Player 1 (Alice): Screenshot saved to p1_03_deal_2.png
+📸 Player 2 (Bob): Screenshot saved to p2_03_deal_2.png
+   10s elapsed...
+📸 Player 1 (Alice): Screenshot saved to p1_03_deal_3.png
+📸 Player 2 (Bob): Screenshot saved to p2_03_deal_3.png
+   15s elapsed...
+📸 Player 1 (Alice): Screenshot saved to p1_03_deal_4.png
+📸 Player 2 (Bob): Screenshot saved to p2_03_deal_4.png
+   20s elapsed...
+📸 Player 1 (Alice): Screenshot saved to p1_03_deal_5.png
+📸 Player 2 (Bob): Screenshot saved to p2_03_deal_5.png
+   25s elapsed...
+📸 Player 1 (Alice): Screenshot saved to p1_03_deal_6.png
+📸 Player 2 (Bob): Screenshot saved to p2_03_deal_6.png
+   30s elapsed...
+📸 Player 1 (Alice): Screenshot saved to p1_03_deal_7.png
+📸 Player 2 (Bob): Screenshot saved to p2_03_deal_7.png
+   35s elapsed...
+
+📍 STEP 5: Initial deal complete - checking game state
+📸 Player 1 (Alice): Screenshot saved to p1_04_ready.png
+📸 Player 2 (Bob): Screenshot saved to p2_04_ready.png
+🎯 Player 1's turn: False
+
+📍 STEP 6: Playing cards
+
+--- Round 1 ---
+🎯 Bob's turn
+   Bob has 0 playable cards
+   Bob has no playable cards, drawing...
+⚠️  Player 2 (Bob): Could not find button#draw-card-btn
+⚠️  Player 2 (Bob): Could not find .draw-pile button
+📸 Player 2 (Bob): Screenshot saved to p2_draw_r0.png
+
+--- Round 2 ---
+🎯 Bob's turn
+   Bob has 0 playable cards
+   Bob has no playable cards, drawing...
+⚠️  Player 2 (Bob): Could not find button#draw-card-btn
+⚠️  Player 2 (Bob): Could not find .draw-pile button
+📸 Player 2 (Bob): Screenshot saved to p2_draw_r1.png
+
+--- Round 3 ---
+🎯 Bob's turn
+   Bob has 0 playable cards
+   Bob has no playable cards, drawing...
+⚠️  Player 2 (Bob): Could not find button#draw-card-btn
+⚠️  Player 2 (Bob): Could not find .draw-pile button
+📸 Player 2 (Bob): Screenshot saved to p2_draw_r2.png
+
+📍 STEP 7: Final game state
+📸 Player 1 (Alice): Screenshot saved to p1_99_final.png
+📸 Player 2 (Bob): Screenshot saved to p2_99_final.png
+
+🎴 Final card counts:
+   Alice: 0 cards
+   Bob: 0 cards
+
+✅ Testing complete!
+📸 Screenshots saved with timestamps showing animation states
+
+🔌 Connections closed
