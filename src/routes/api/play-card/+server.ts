@@ -111,6 +111,8 @@ export const POST: RequestHandler = async ({ request }) => {
 
 		// Prevent winning if UNO wasn't declared
 		if (newHand.length === 0 && !currentPlayer.uno_declared) {
+tt// TODO: This case should give penalty cards but currently just prevents play
+t}
 		// Give penalty cards for forgetting to declare UNO
 
 		// Determine which player was skipped (if any)
