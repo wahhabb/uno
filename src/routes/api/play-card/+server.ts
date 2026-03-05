@@ -110,18 +110,34 @@ export const POST: RequestHandler = async ({ request }) => {
 		const playerWon = newHand.length === 0 && currentPlayer.uno_declared;
 
 		// Prevent winning if UNO wasn't declared
+		// Prevent winning if UNO wasn't declared
 		if (newHand.length === 0 && !currentPlayer.uno_declared) {
-tt// TODO: This case should give penalty cards but currently just prevents play
-t}
-		// Give penalty cards for forgetting to declare UNO
-
-		// Determine which player was skipped (if any)
-		let skippedPlayerEmail: string | null = null;
-		if (cardEffect.skipNextPlayer && !playerWon) {
-			// Calculate who would have been next without the skip
-			const wouldBeNextIndex = (game.current_player_index + game.direction + players.length) % players.length;
-			skippedPlayerEmail = players[wouldBeNextIndex].player_email;
+			return json(
+				{ success: false, error: 'You must declare UNO before playing your last card!' },
+				{ status: 400 }
+			);
 		}
+
+	// Step 11: Apply card effects to determine next game state
+	const cardEffect = applyCardEffect(
+		cardInHand,
+		game.current_player_index,
+		game.direction,
+		players.length,
+		chosen_color
+	);
+
+	// Calculate skipped player email if applicable
+	let skippedPlayerEmail: string | null = null;
+	if (cardEffect.skipNextPlayer && !playerWon) {
+		const wouldBeNextIndex = getNextPlayerIndex(
+			game.current_player_index,
+			game.direction,
+			players.length,
+			false // Don't skip - this is the player who would have been next
+		);
+		skippedPlayerEmail = players[wouldBeNextIndex].player_email;
+	}
 
 		// Step 12: Handle draw cards for next player
 		// (updatedDrawPile and updatedDiscardPile already initialized above)
@@ -153,6 +169,15 @@ t}
 				updatedDiscardPile = newDiscardPile;
 			}
 
+			// Add the drawn cards to victim player's hand
+			const victimPlayerNewHand = [...victimPlayer.hand, ...cardsDrawn];
+
+			// Store penalty info for response
+			penaltyCardsGiven = {
+				player_email: victimPlayer.player_email,
+				cards: cardsDrawn,
+				count: cardsDrawn.length
+			};
 
 			const { data: updateData, error: updateError } = await supabase
 				.from('game_players')
