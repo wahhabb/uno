@@ -375,35 +375,38 @@
 				return;
 			}
 
-			// Get positions BEFORE removing card
-			const handPos = getHandCardPosition(cardIndex);
-			const discardPos = getDiscardPilePosition();
+			// Wait for layout to stabilize before calculating positions
+			requestAnimationFrame(() => {
+				// Get positions BEFORE removing card
+				const handPos = getHandCardPosition(cardIndex);
+				const discardPos = getDiscardPilePosition();
 
-			// Play sound
-			playCardFlipSound();
+				// Play sound
+				playCardFlipSound();
 
-			// Create flying card from hand to discard
-			const cardId = `flying-play-${Date.now()}`;
-			flyingCards = [{
-				id: cardId,
-				startX: handPos.x,
-				startY: handPos.y,
-				endX: discardPos.x,
-				endY: discardPos.y,
-				isPlayingCard: true,
-				cardData: card // Pass the actual card to render
-			}];
+				// Create flying card from hand to discard
+				const cardId = `flying-play-${Date.now()}`;
+				flyingCards = [{
+					id: cardId,
+					startX: handPos.x,
+					startY: handPos.y,
+					endX: discardPos.x,
+					endY: discardPos.y,
+					isPlayingCard: true,
+					cardData: card // Pass the actual card to render
+				}];
 
-			// Wait a moment, then remove card from visible hand (other cards will slide left)
-			setTimeout(() => {
-				visibleHandSize = Math.max(0, visibleHandSize - 1);
-			}, 2500); // Halfway through 5s animation
+				// Wait a moment, then remove card from visible hand (other cards will slide left)
+				setTimeout(() => {
+					visibleHandSize = Math.max(0, visibleHandSize - 1);
+				}, 2500); // Halfway through 5s animation
 
-			// Remove flying card after animation completes
-			setTimeout(() => {
-				flyingCards = [];
-				resolve();
-			}, 5000);
+				// Remove flying card after animation completes
+				setTimeout(() => {
+					flyingCards = [];
+					resolve();
+				}, 5000);
+			});
 		});
 	}
 
@@ -1081,6 +1084,14 @@
 		height: 120px;
 		transform: translate(-50%, -50%);
 		animation: fly-card-flip 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+	}
+
+	/* Responsive flying card size to match actual cards */
+	@media (max-width: 768px) {
+		.flying-card {
+			width: 60px;
+			height: 90px;
+		}
 	}
 
 	/* Playing cards don't flip, just move */
