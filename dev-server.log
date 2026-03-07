@@ -2705,3 +2705,120 @@ https://svelte.dev/e/css_unused_selector
 1:41:04 PM [vite] page reload .svelte-kit/generated/root.js
 1:41:08 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
 1:41:08 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+5:43:15 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+5:43:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:996:1 Unused CSS selector ".animation-banner"
+https://svelte.dev/e/css_unused_selector
+5:43:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1009:1 Unused CSS selector ".animation-banner.visible"
+https://svelte.dev/e/css_unused_selector
+5:43:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1015:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+5:43:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1028:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+5:43:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1040:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+5:43:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1046:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+5:43:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1050:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+5:43:18 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1054:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+5:43:23 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+5:43:28 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:987:1 Unused CSS selector ".animation-banner"
+https://svelte.dev/e/css_unused_selector
+5:43:28 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1000:1 Unused CSS selector ".animation-banner.visible"
+https://svelte.dev/e/css_unused_selector
+5:43:28 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1006:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+5:43:28 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1019:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+5:43:28 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1031:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+5:43:28 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1037:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+5:43:28 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1041:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+5:43:28 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1045:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+5:43:28 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1214:1 Unused CSS selector ".uno-banner"
+https://svelte.dev/e/css_unused_selector
+5:43:28 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1226:1 Unused CSS selector ".uno-banner.visible"
+https://svelte.dev/e/css_unused_selector
+5:43:28 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+5:43:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:986:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+5:43:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:999:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+5:43:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1011:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+5:43:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1017:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+5:43:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1021:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+5:43:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1025:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+5:43:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1194:1 Unused CSS selector ".uno-banner"
+https://svelte.dev/e/css_unused_selector
+5:43:33 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1206:1 Unused CSS selector ".uno-banner.visible"
+https://svelte.dev/e/css_unused_selector
+5:43:33 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+5:43:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:986:1 Unused CSS selector ".debug-controls"
+https://svelte.dev/e/css_unused_selector
+5:43:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:999:1 Unused CSS selector ".debug-button"
+https://svelte.dev/e/css_unused_selector
+5:43:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1011:1 Unused CSS selector ".debug-button.active"
+https://svelte.dev/e/css_unused_selector
+5:43:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1017:1 Unused CSS selector ".debug-button:hover"
+https://svelte.dev/e/css_unused_selector
+5:43:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1021:1 Unused CSS selector ".debug-button.active:hover"
+https://svelte.dev/e/css_unused_selector
+5:43:36 PM [vite-plugin-svelte] src/routes/game/[id]/+page.svelte:1025:1 Unused CSS selector ".debug-info"
+https://svelte.dev/e/css_unused_selector
+5:43:36 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+5:43:45 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+5:43:45 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+5:43:45 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+5:43:45 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+5:43:45 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+5:43:45 PM [vite] page reload .svelte-kit/generated/client/app.js
+5:43:45 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+5:43:45 PM [vite] page reload .svelte-kit/generated/server/internal.js
+5:43:45 PM [vite] page reload .svelte-kit/generated/root.js
+5:43:47 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+5:43:47 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+5:43:47 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+5:43:47 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+5:43:47 PM [vite] page reload .svelte-kit/generated/root.js
+5:43:47 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+5:43:47 PM [vite] page reload .svelte-kit/generated/client/app.js
+5:43:48 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+5:43:49 PM [vite] page reload .svelte-kit/generated/server/internal.js
+5:47:06 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+5:47:06 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+5:47:06 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+5:47:06 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+5:47:06 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+5:47:06 PM [vite] page reload .svelte-kit/generated/client/app.js
+5:47:06 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+5:47:06 PM [vite] page reload .svelte-kit/generated/server/internal.js
+5:47:06 PM [vite] page reload .svelte-kit/generated/root.js
+1:36:06 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+1:36:10 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+1:36:10 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+1:36:10 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+1:36:10 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+1:36:10 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+1:36:10 PM [vite] page reload .svelte-kit/generated/client/app.js
+1:36:10 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+1:36:10 PM [vite] page reload .svelte-kit/generated/server/internal.js
+1:36:10 PM [vite] page reload .svelte-kit/generated/root.js
+1:36:14 PM [vite] page reload .svelte-kit/generated/client/nodes/0.js
+1:36:14 PM [vite] page reload .svelte-kit/generated/client/nodes/1.js
+1:36:14 PM [vite] page reload .svelte-kit/generated/client/nodes/2.js
+1:36:14 PM [vite] page reload .svelte-kit/generated/client/nodes/3.js
+1:36:14 PM [vite] page reload .svelte-kit/generated/client/nodes/4.js
+1:36:14 PM [vite] page reload .svelte-kit/generated/client/app.js
+1:36:14 PM [vite] page reload .svelte-kit/generated/client/matchers.js
+1:36:14 PM [vite] page reload .svelte-kit/generated/server/internal.js
+1:36:14 PM [vite] page reload .svelte-kit/generated/root.js
+1:39:45 PM [vite] hmr update /src/routes/game/[id]/+page.svelte
+2:09:43 PM [vite] hmr update /src/routes/game/[id]/+page.svelte

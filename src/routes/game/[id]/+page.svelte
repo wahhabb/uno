@@ -59,6 +59,11 @@
 	$: gameOver = game?.status === 'completed';
 	$: winner = gameOver ? players.find((p) => p.email === game.winner_email) : null;
 
+	// Play win sound when game ends
+	$: if (gameOver && winAudio) {
+		winAudio.currentTime = 0;
+		winAudio.play().catch(() => {});
+	}
 
 	onMount(async () => {
 		playerStore.subscribe((state) => {
@@ -303,42 +308,35 @@
 		return pos;
 	}
 
-	// Create persistent audio context for sounds
-	let audioContext: AudioContext | null = null;
+	// Pre-loaded audio elements for sound effects
+	let cardFlipAudio: HTMLAudioElement | null = null;
+	let specialCardAudio: HTMLAudioElement | null = null;
+	let buttonClickAudio: HTMLAudioElement | null = null;
+	let winAudio: HTMLAudioElement | null = null;
+	let errorAudio: HTMLAudioElement | null = null;
 
 	function initAudioContext() {
-		if (!audioContext) {
-			try {
-				audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
-			} catch (err) {
-				console.warn('Audio not supported');
-			}
+		if (!cardFlipAudio) {
+		//	cardFlipAudio = new Audio('/assets/sounds/card-flip.wav');
+			cardFlipAudio = new Audio('/assets/sounds/cardflip.mp3');
+			cardFlipAudio.volume = 0.5;
+			specialCardAudio = new Audio('/assets/sounds/special-card.wav');
+			specialCardAudio.volume = 0.7;
+			buttonClickAudio = new Audio('/assets/sounds/button-click.wav');
+			buttonClickAudio.volume = 0.4;
+			winAudio = new Audio('/assets/sounds/win.wav');
+			winAudio.volume = 0.8;
+			errorAudio = new Audio('/assets/sounds/error.wav');
+			errorAudio.volume = 0.3;
 		}
 	}
 
 	function playCardFlipSound() {
 		try {
-			initAudioContext();
-			if (!audioContext) return;
-
-			// Create a short "flip" sound
-			const oscillator = audioContext.createOscillator();
-			const gainNode = audioContext.createGain();
-
-			oscillator.connect(gainNode);
-			gainNode.connect(audioContext.destination);
-
-			// Higher pitch for card flip
-			oscillator.frequency.value = 1000;
-			oscillator.type = 'square';
-
-			// Quick fade out
-			gainNode.gain.setValueAtTime(0.15, audioContext.currentTime);
-			gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.05);
-
-			oscillator.start(audioContext.currentTime);
-			oscillator.stop(audioContext.currentTime + 0.05);
-
+			if (cardFlipAudio) {
+				cardFlipAudio.currentTime = 0;
+				cardFlipAudio.play().catch(() => {});
+			}
 		} catch (err) {
 			console.warn('Sound playback failed:', err);
 		}
@@ -750,15 +748,6 @@
 				{/if}
 			</div>
 
-			<!-- Animation banner - always present to prevent layout shift -->
-			<div class="animation-banner" class:visible={showAnimationMessage}>
-				{#if showAnimationMessage}
-					🎴 {animationMessage}
-				{:else}
-					&nbsp;
-				{/if}
-			</div>
-
 			<!-- Color Picker Banner at top -->
 			{#if showColorPicker}
 				<div class="color-picker-banner">
@@ -825,26 +814,17 @@
 					onDrawCard={isMyTurn ? handleDrawCard : undefined}
 				/>
 
-				<!-- UNO Button area - always present to prevent layout shift -->
+				<!-- UNO Button beside the play area -->
 				<div class="uno-button-container">
-			<button
-				class="uno-button"
-				class:uno-declared={myPlayer?.uno_declared}
-				on:click={declareUno}
-				disabled={myPlayer?.uno_declared}
-			>
-				{myPlayer?.uno_declared ? '✓ UNO!' : 'UNO!'}
-			</button>
-			</div>
-
-			<!-- UNO Declaration Banner -->
-			<div class="uno-banner" class:visible={myPlayer?.uno_declared}>
-				{#if myPlayer?.uno_declared}
-					✓ You declared UNO!
-				{:else}
-					&nbsp;
-				{/if}
-			</div>
+					<button
+						class="uno-button"
+						class:uno-declared={myPlayer?.uno_declared}
+						on:click={declareUno}
+						disabled={myPlayer?.uno_declared}
+					>
+						{myPlayer?.uno_declared ? '✓ UNO!' : 'UNO!'}
+					</button>
+				</div>
 			</div>
 
 			<!-- Player Hand -->
@@ -997,26 +977,6 @@
 
 	.skip-banner.visible {
 		background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
-		color: white;
-		border-color: white;
-	}
-
-
-	.animation-banner {
-		background: transparent;
-		color: transparent;
-		padding: 0.75rem;
-		border-radius: 0.5rem;
-		text-align: center;
-		font-weight: bold;
-		font-size: 1.2rem;
-		border: 2px solid transparent;
-		transition: all 0.3s ease-in-out;
-		min-height: 3rem; /* Prevent layout shift */
-	}
-
-	.animation-banner.visible {
-		background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
 		color: white;
 		border-color: white;
 	}
@@ -1187,18 +1147,16 @@
 
 	.center-area {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		align-items: center;
-		gap: 0.75rem;
+		justify-content: center;
+		gap: 1rem;
 		position: relative;
 	}
 
 	.uno-button-container {
 		display: flex;
-		justify-content: center;
 		align-items: center;
-		min-height: 3rem;
-		margin: 0.5rem 0;
 	}
 
 	.uno-button {
@@ -1229,23 +1187,6 @@
 		background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
 		cursor: not-allowed;
 		opacity: 0.8;
-	}
-
-	.uno-banner {
-		background: transparent;
-		color: transparent;
-		padding: 0.5rem;
-		border-radius: 0.5rem;
-		text-align: center;
-		font-weight: bold;
-		font-size: 1rem;
-		min-height: 2rem;
-		transition: all 0.3s ease;
-	}
-
-	.uno-banner.visible {
-		background: #27ae60;
-		color: white;
 	}
 
 	/* Color Picker */
